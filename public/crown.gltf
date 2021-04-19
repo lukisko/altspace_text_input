@@ -1,0 +1,205 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 2824,
+      "type": "VEC3",
+      "max": [
+        0.20282408595085144,
+        0.3267187774181366,
+        0.2432095855474472
+      ],
+      "min": [
+        -0.20282405614852905,
+        -4.385709689813666E-05,
+        -0.2432095855474472
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2824,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2824,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99613934755325317,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.99686712026596069,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2824,
+      "type": "VEC2",
+      "max": [
+        0.9943501353263855,
+        0.99038636684417725
+      ],
+      "min": [
+        0.002482287585735321,
+        0.0048514008522033691
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 7032,
+      "type": "SCALAR",
+      "max": [
+        2823.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "crown.bin",
+      "byteLength": 149616
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 33888
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 33888,
+      "byteLength": 33888
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 67776,
+      "byteLength": 45184
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 112960,
+      "byteLength": 22592
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 135552,
+      "byteLength": 14064
+    }
+  ],
+  "images": [
+    {
+      "uri": "crown_1001_Normal.png",
+      "name": "crown_1001_Normal"
+    },
+    {
+      "uri": "crown_1001_AlbedoTransparency.png",
+      "name": "crown_1001_AlbedoTransparency"
+    },
+    {
+      "uri": "crown_1001_MetallicSmoothness.png",
+      "name": "crown_1001_MetallicSmoothness"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5,
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      },
+      "normalTexture": {
+        "index": 0
+      },
+      "name": "crown"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "crown"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "crown"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "crown"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "crown_1001_Normal"
+    },
+    {
+      "sampler": 0,
+      "source": 1,
+      "name": "crown_1001_AlbedoTransparency"
+    },
+    {
+      "sampler": 0,
+      "source": 2,
+      "name": "crown_1001_MetallicSmoothness"
+    }
+  ]
+}
