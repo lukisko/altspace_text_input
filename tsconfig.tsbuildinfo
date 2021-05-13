@@ -191,7 +191,7 @@
         "signature": "5bb0bd8cd4ff03461b95b2023a23ed4049fef2c1fa696d6b030b2da623e6292b",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-common/built/math/beziercurve.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-common/built/math/bezierCurve.d.ts": {
         "version": "cf1cef44ac85ff484b7b3ac7045a87139cd5411ec4d4000b207b3731bb864e86",
         "signature": "cf1cef44ac85ff484b7b3ac7045a87139cd5411ec4d4000b207b3731bb864e86",
         "affectsGlobalScope": false
@@ -251,22 +251,22 @@
         "signature": "64470a374078fe92f2c8e15eac43890e95f8c1d5fc83f199c479b961d14f72f2",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/actionevent.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/actionEvent.d.ts": {
         "version": "6b193b71ab45a0e9b835d46101fa8daefc68beb2d159edf17e1950da178a8efb",
         "signature": "6b193b71ab45a0e9b835d46101fa8daefc68beb2d159edf17e1950da178a8efb",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/actionstates.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/actionStates.d.ts": {
         "version": "81e753910399c0354277f35cb3219da23f40c54a4d2b8dd9f29e7762625f3ba4",
         "signature": "81e753910399c0354277f35cb3219da23f40c54a4d2b8dd9f29e7762625f3ba4",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/groupmask.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/groupMask.d.ts": {
         "version": "d2a6b609139937a832a39333331af725505a7a5e9456f8c5781aea7ebc71fdbb",
         "signature": "d2a6b609139937a832a39333331af725505a7a5e9456f8c5781aea7ebc71fdbb",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/invertedgroupmask.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/invertedGroupMask.d.ts": {
         "version": "c0e56ab1e82eef4e6ca9100e2985c63b11d83688d20405f7a594587b0ec32acb",
         "signature": "c0e56ab1e82eef4e6ca9100e2985c63b11d83688d20405f7a594587b0ec32acb",
         "affectsGlobalScope": false
@@ -491,7 +491,7 @@
         "signature": "95dc2dc2451185553218328422c8f54795cf80fb3301c55518c9c9d8d2d8e621",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/clientpreprocessing.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/clientPreprocessing.d.ts": {
         "version": "d9f5bc92032622a8eba7af351aee2fb9cf20f0cbb01abee04af39c33469d33aa",
         "signature": "d9f5bc92032622a8eba7af351aee2fb9cf20f0cbb01abee04af39c33469d33aa",
         "affectsGlobalScope": false
@@ -531,7 +531,7 @@
         "signature": "e91b2615fb5eba8fdfe2d21e710dd280a59c1f6c25997c4a1aa8525a9dcd9ad2",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/boxalignment.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/boxAlignment.d.ts": {
         "version": "55f2787a7541ecee745f43c7a4d46708776edefef93795b18e646e438e99ce8d",
         "signature": "55f2787a7541ecee745f43c7a4d46708776edefef93795b18e646e438e99ce8d",
         "affectsGlobalScope": false
@@ -551,22 +551,22 @@
         "signature": "69e558e212c9eec86d4e64ec7106d4195c064f33f36b0b09477b4c2c7ddcece6",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/planargridlayout.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/planarGridLayout.d.ts": {
         "version": "35c0b75461310052e9da7481993405ccfcc2c81fa36e3ec6ee1323b4a1489446",
         "signature": "35c0b75461310052e9da7481993405ccfcc2c81fa36e3ec6ee1323b4a1489446",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/readonlymap.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/readonlyMap.d.ts": {
         "version": "e868d7e1db715e08ba821bad6dce5941d4763cd164b8af98808977473b3a03a6",
         "signature": "e868d7e1db715e08ba821bad6dce5941d4763cd164b8af98808977473b3a03a6",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/userfilter.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/userFilter.d.ts": {
         "version": "d33e8f31cf92e43b56ee54f40dc54f3d40ebfbf1e6fb2e67d098513640139ec9",
         "signature": "d33e8f31cf92e43b56ee54f40dc54f3d40ebfbf1e6fb2e67d098513640139ec9",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/webhost.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/webHost.d.ts": {
         "version": "0239c2a427b044420bf008a4067366ddeeeb46cd234d68d3ab0d572362248c59",
         "signature": "0239c2a427b044420bf008a4067366ddeeeb46cd234d68d3ab0d572362248c59",
         "affectsGlobalScope": false
@@ -576,7 +576,7 @@
         "signature": "8d918704fc9198074f2ad1cef9f649e0b884b2ee63e7f64ac68af4227c031a50",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/physicsbridge.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/physicsBridge.d.ts": {
         "version": "be68ac0041da593052e4f0e7d3e57b5426a74b71d2495bf0d35d5446e9b7e333",
         "signature": "be68ac0041da593052e4f0e7d3e57b5426a74b71d2495bf0d35d5446e9b7e333",
         "affectsGlobalScope": false
@@ -596,7 +596,7 @@
         "signature": "317e67c3450f050bb609accfd01bd92dc0eb0a6ab76aac3c3041641865bcd13c",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/serverpreprocessing.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/serverPreprocessing.d.ts": {
         "version": "ecf0d68cf237ffda864507fd701b651eb4d834cc54c91ac89f51ce333e63f99c",
         "signature": "ecf0d68cf237ffda864507fd701b651eb4d834cc54c91ac89f51ce333e63f99c",
         "affectsGlobalScope": false
@@ -611,37 +611,37 @@
         "signature": "4ff943aeea52ee0644bbdc4fb3c11d18fce4223334703e3ba2acfc0ddd0f4c09",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientexecution.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientExecution.d.ts": {
         "version": "55f3445803fed7a88ded4a4f5a05e0ae7aba86fee12a1fe134d78d9f050c31f7",
         "signature": "55f3445803fed7a88ded4a4f5a05e0ae7aba86fee12a1fe134d78d9f050c31f7",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clienthandshake.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientHandshake.d.ts": {
         "version": "0807d1f7cc7c449ae5037b1f1b42535c1b07cddb8eb438cefacd884f4539dffc",
         "signature": "0807d1f7cc7c449ae5037b1f1b42535c1b07cddb8eb438cefacd884f4539dffc",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientstartup.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientStartup.d.ts": {
         "version": "440343267499e9a88b89fba1dbc14f6a4f90d6a1b4f1b821942b529eb3cf20b3",
         "signature": "440343267499e9a88b89fba1dbc14f6a4f90d6a1b4f1b821942b529eb3cf20b3",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientsync.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientSync.d.ts": {
         "version": "898e43550373851b8ee28c8cf226e1f5cc491df698dd24b94a4a276e5742f8ec",
         "signature": "898e43550373851b8ee28c8cf226e1f5cc491df698dd24b94a4a276e5742f8ec",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionexecution.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionExecution.d.ts": {
         "version": "3a5708f59e2b141c5af74241cb5a84fac31f1db882dc0bf4b8724f4841a996c4",
         "signature": "3a5708f59e2b141c5af74241cb5a84fac31f1db882dc0bf4b8724f4841a996c4",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionhandshake.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionHandshake.d.ts": {
         "version": "d6bc20a04f9db5313efe74030b5b4ae7d0963f3731808d1aa2943d82fad86bd6",
         "signature": "d6bc20a04f9db5313efe74030b5b4ae7d0963f3731808d1aa2943d82fad86bd6",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionsync.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionSync.d.ts": {
         "version": "0cb4de1c8503ab122b3c06e7fa7e58b36a58a32655d54151d17f0799a17f1294",
         "signature": "0cb4de1c8503ab122b3c06e7fa7e58b36a58a32655d54151d17f0799a17f1294",
         "affectsGlobalScope": false
@@ -656,7 +656,7 @@
         "signature": "4286c86ce591f847ecbbfc46a74af30294dbe59003c4df06425bdb8f26cf4e43",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/clientdesyncpreprocessor.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/clientDesyncPreprocessor.d.ts": {
         "version": "5087de7c9e9f456360e01baa3152154b3ea885e3aa98fd291bf63fe28b6d8acb",
         "signature": "5087de7c9e9f456360e01baa3152154b3ea885e3aa98fd291bf63fe28b6d8acb",
         "affectsGlobalScope": false
@@ -671,17 +671,17 @@
         "signature": "d1387e0c3de4754125d41c3f8ead45b548ab055e522e840ad7e045767af52c36",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncactor.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncActor.d.ts": {
         "version": "7856de4fe3617b293b9dbdfdf04441b00695c7a61f60c689b671918facd2bf75",
         "signature": "7856de4fe3617b293b9dbdfdf04441b00695c7a61f60c689b671918facd2bf75",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncanimation.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncAnimation.d.ts": {
         "version": "e0b589ebabf516f2b0e855488d5eecff325aa62700c7fe38e4092d7630cc7805",
         "signature": "e0b589ebabf516f2b0e855488d5eecff325aa62700c7fe38e4092d7630cc7805",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncasset.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncAsset.d.ts": {
         "version": "ac730afcab6f05bc66924392bc3a6a4d031c57c3c067f6c2c661ef2ee620a773",
         "signature": "ac730afcab6f05bc66924392bc3a6a4d031c57c3c067f6c2c661ef2ee620a773",
         "affectsGlobalScope": false
@@ -701,17 +701,17 @@
         "signature": "99b2e0ce69895edc0826feeda5ec73c52aeb5b741cd820445301ed72b6ed2afd",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/eventedconnection.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/eventedConnection.d.ts": {
         "version": "7378ccf66558de4d99cb2bbb378079b70d26650b023cd143bccc7eb40d5b00dd",
         "signature": "7378ccf66558de4d99cb2bbb378079b70d26650b023cd143bccc7eb40d5b00dd",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/networkstats.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/networkStats.d.ts": {
         "version": "446b132e45eb4414ba3cd8d7dd6cdcd4b8313957c7ab2c5737faeaa33f223086",
         "signature": "446b132e45eb4414ba3cd8d7dd6cdcd4b8313957c7ab2c5737faeaa33f223086",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/nullconnection.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/nullConnection.d.ts": {
         "version": "bfd36b81cc1eda63d67ffcf072a02aea7542fda5ea9761918e42766a5b550333",
         "signature": "bfd36b81cc1eda63d67ffcf072a02aea7542fda5ea9761918e42766a5b550333",
         "affectsGlobalScope": false
@@ -721,7 +721,7 @@
         "signature": "4dd82505c6c0fdd959c59ebdfb1e3231953105c05c000af7b2e155b89e1ca40c",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/websocket.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/webSocket.d.ts": {
         "version": "c17ac811ad547d9fe2d865674bdcc37e9228f64f64ae602db05d9ffb10d36ba2",
         "signature": "c17ac811ad547d9fe2d865674bdcc37e9228f64f64ae602db05d9ffb10d36ba2",
         "affectsGlobalScope": false
@@ -731,17 +731,17 @@
         "signature": "0f4e6c5ba44222ba9d6c2a5cd1f192e7c086ba4fcce83cfff8e8b99d56705460",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/deterministicguids.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/deterministicGuids.d.ts": {
         "version": "ef8fcc00129af60635477ded55d09e930d2deeab31c17e0ace2f85097cf77e64",
         "signature": "ef8fcc00129af60635477ded55d09e930d2deeab31c17e0ace2f85097cf77e64",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/exponentialmovingaverage.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/exponentialMovingAverage.d.ts": {
         "version": "71540d8777b7cab2016dffbcb8586b429993536ee21a014e7b3107dade287284",
         "signature": "71540d8777b7cab2016dffbcb8586b429993536ee21a014e7b3107dade287284",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/filterempty.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/filterEmpty.d.ts": {
         "version": "abb419acac283f2c5d244b8e781366f268be796e475ef970bedc519dda943e51",
         "signature": "abb419acac283f2c5d244b8e781366f268be796e475ef970bedc519dda943e51",
         "affectsGlobalScope": false
@@ -756,37 +756,37 @@
         "signature": "42f6cd40ffab5f4d09ec7b12e19d13a02b93826393272ec677c839fb66265238",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/readpath.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/readPath.d.ts": {
         "version": "3f20f9a028d779acd2de1224d2b734a9825e40845b49633b27871d1e23a70230",
         "signature": "3f20f9a028d779acd2de1224d2b734a9825e40845b49633b27871d1e23a70230",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/resolvejsonvalues.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/resolveJsonValues.d.ts": {
         "version": "154e2b56f1fefd57cc5f9c9b05454dd3ea1463356fc1cc435e9ddc0249f2982c",
         "signature": "154e2b56f1fefd57cc5f9c9b05454dd3ea1463356fc1cc435e9ddc0249f2982c",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/safeaccesspath.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/safeAccessPath.d.ts": {
         "version": "431ec9af012ebc9f475d4626537ec27dc2d01ef5ad8815547ebe9a36789bb95a",
         "signature": "431ec9af012ebc9f475d4626537ec27dc2d01ef5ad8815547ebe9a36789bb95a",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/trackingclock.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/trackingClock.d.ts": {
         "version": "1f9cf43ba80e575bdc44869593cc3497095d16f3dfe97a5f733657bf0052838f",
         "signature": "1f9cf43ba80e575bdc44869593cc3497095d16f3dfe97a5f733657bf0052838f",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/validatejsonfieldname.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/validateJsonFieldName.d.ts": {
         "version": "e62dec32a791f67d1566409f503de8593a18a0b8564040b2db6a2931c74f4387",
         "signature": "e62dec32a791f67d1566409f503de8593a18a0b8564040b2db6a2931c74f4387",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/verifyclient.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/verifyClient.d.ts": {
         "version": "c61e6261e4a269fd6537b2c862063b8c6e0e00bae1b67751371c561714a11f29",
         "signature": "c61e6261e4a269fd6537b2c862063b8c6e0e00bae1b67751371c561714a11f29",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/visitactor.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/visitActor.d.ts": {
         "version": "ef872695b5a112b5da6d4351b068e6ffb4fd143813a4e902a1b1702326e83ce7",
         "signature": "ef872695b5a112b5da6d4351b068e6ffb4fd143813a4e902a1b1702326e83ce7",
         "affectsGlobalScope": false
@@ -801,12 +801,12 @@
         "signature": "69a6897316fbbb71409b694777b0915c29820b6520bb51421d1cd035ef99398f",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/eventemitterlike.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/eventEmitterLike.d.ts": {
         "version": "5c90b882a488d4a4323f6c6dce9fb9dd9fc9c0662401fa40681b36489db22c7f",
         "signature": "5c90b882a488d4a4323f6c6dce9fb9dd9fc9c0662401fa40681b36489db22c7f",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/exportedpromise.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/exportedPromise.d.ts": {
         "version": "cc7c88f6cc97571f32c28ec727714e9a5aa619e4963561da2ee2ca3a3f501c4a",
         "signature": "cc7c88f6cc97571f32c28ec727714e9a5aa619e4963561da2ee2ca3a3f501c4a",
         "affectsGlobalScope": false
@@ -816,12 +816,12 @@
         "signature": "b81bd132be11a2da8d0fb55b7407d1ba947057f4d06f2f2b38e139f24cbb47f6",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/operatingmodel.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/operatingModel.d.ts": {
         "version": "446841ea3866a9b68959a4b3e1ce03cfc730e568f84f23cd3ed7ccbf93350c99",
         "signature": "446841ea3866a9b68959a4b3e1ce03cfc730e568f84f23cd3ed7ccbf93350c99",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/operationresultcode.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/operationResultCode.d.ts": {
         "version": "6ee00694d195f2ad53851fe6c1cbeedc41ab12f31a6557d9fccfbc2e886a3ff1",
         "signature": "6ee00694d195f2ad53851fe6c1cbeedc41ab12f31a6557d9fccfbc2e886a3ff1",
         "affectsGlobalScope": false
@@ -831,12 +831,12 @@
         "signature": "de315034e358a0336fb405a0122b1719613fa031f8a2bf0ea537d438c8cc193e",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/queuedpromise.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/queuedPromise.d.ts": {
         "version": "07544b3962372acc96da1dd7ea0571fd235480e9be8dd189405b714f41da500c",
         "signature": "07544b3962372acc96da1dd7ea0571fd235480e9be8dd189405b714f41da500c",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/subscriptiontype.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/subscriptionType.d.ts": {
         "version": "4ff93b7edb55b913d08b6a33cd76a35fa25686eb21ae6e85b2575bdbbf77a433",
         "signature": "4ff93b7edb55b913d08b6a33cd76a35fa25686eb21ae6e85b2575bdbbf77a433",
         "affectsGlobalScope": false
@@ -851,12 +851,12 @@
         "signature": "7c2b74a8d1d35e97c57ff2a22ce19e3a034015d27a925766b53021f35d7e9fe9",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/contextinternal.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/contextInternal.d.ts": {
         "version": "5334da90f83531cf99b7cba1ddceb6835b8652fa407873188750b8deae3acfc8",
         "signature": "5334da90f83531cf99b7cba1ddceb6835b8652fa407873188750b8deae3acfc8",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/userinternal.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/userInternal.d.ts": {
         "version": "7608cd2499b2d7714a3ff1741cc8a77ded3dead77464c0cbf3603439fefcd13b",
         "signature": "7608cd2499b2d7714a3ff1741cc8a77ded3dead77464c0cbf3603439fefcd13b",
         "affectsGlobalScope": false
@@ -881,27 +881,27 @@
         "signature": "34f6eebe2e2574ce71bff1728d10f006e0b9e9158751f0e328c2f528913028f9",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/behaviortypes.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/behaviorTypes.d.ts": {
         "version": "6cb9941b5ad16c7b612913c06006744a281968b20b54d14a947291a566fe90a7",
         "signature": "6cb9941b5ad16c7b612913c06006744a281968b20b54d14a947291a566fe90a7",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/targetbehavior.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/targetBehavior.d.ts": {
         "version": "47e14fb4a22dec1539c00a27eeb9d41bb0d32ad6a4c440cbc63531cd57720efe",
         "signature": "47e14fb4a22dec1539c00a27eeb9d41bb0d32ad6a4c440cbc63531cd57720efe",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/buttonbehavior.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/buttonBehavior.d.ts": {
         "version": "543bf30f8d804f0b2d03103de2c1fb0ff96252e8dbe1c5532c2dcd15792b7aac",
         "signature": "543bf30f8d804f0b2d03103de2c1fb0ff96252e8dbe1c5532c2dcd15792b7aac",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/toolbehavior.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/toolBehavior.d.ts": {
         "version": "ea7503834de77531bd59bd52c6964cf1b0e15a7331de0b89c9d7982b725eeaed",
         "signature": "ea7503834de77531bd59bd52c6964cf1b0e15a7331de0b89c9d7982b725eeaed",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/penbehavior.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/penBehavior.d.ts": {
         "version": "02c4257fedf3b04382bc8b517f1aa3aed9bfb9c89709473adb78ea55d2e64ceb",
         "signature": "02c4257fedf3b04382bc8b517f1aa3aed9bfb9c89709473adb78ea55d2e64ceb",
         "affectsGlobalScope": false
@@ -911,17 +911,17 @@
         "signature": "30d126462eedbbdcbf0ec23ed670fa17de8cbe6b14a585b4ae940ce8d46faea1",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/mediacommand.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/mediaCommand.d.ts": {
         "version": "6ec4cef8c2af284e76081405fd77e469b187e9b995dbd74f04b957fceb81e72e",
         "signature": "6ec4cef8c2af284e76081405fd77e469b187e9b995dbd74f04b957fceb81e72e",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/mediainstance.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/mediaInstance.d.ts": {
         "version": "853ef32b1150710d065c80b981c36179727985c51b1799a084d309d049f8bdb5",
         "signature": "853ef32b1150710d065c80b981c36179727985c51b1799a084d309d049f8bdb5",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/setmediastateoptions.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/setMediaStateOptions.d.ts": {
         "version": "4b72aceb5ba6da441e92236941d5956a91776699f8d94c404e0a9325d4db9523",
         "signature": "4b72aceb5ba6da441e92236941d5956a91776699f8d94c404e0a9325d4db9523",
         "affectsGlobalScope": false
@@ -931,7 +931,7 @@
         "signature": "f07012b4daeec01001e7f0504503e2215f45a55eea58478787310a96603e0a84",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderinternal.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderInternal.d.ts": {
         "version": "2c059fe0633a044e553a220f88851f93659b6471c443aae9d007c87902e4043e",
         "signature": "2c059fe0633a044e553a220f88851f93659b6471c443aae9d007c87902e4043e",
         "affectsGlobalScope": false
@@ -941,12 +941,12 @@
         "signature": "a12b72487155b996ca4d2a1054c903fc871e28c7360f48e18ebbb8d4c84dc6ee",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collidergeometry.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderGeometry.d.ts": {
         "version": "2ddd7da6a2a151eda2093a7486bd6c00f4a5388941da0a28f99a23fd32894aa9",
         "signature": "2ddd7da6a2a151eda2093a7486bd6c00f4a5388941da0a28f99a23fd32894aa9",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collidertype.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderType.d.ts": {
         "version": "c1fd2fc02cb0ea3f1e6d800655fbdb4739f4b96a6b6ccbe1a1d85ba662f58873",
         "signature": "c1fd2fc02cb0ea3f1e6d800655fbdb4739f4b96a6b6ccbe1a1d85ba662f58873",
         "affectsGlobalScope": false
@@ -956,17 +956,17 @@
         "signature": "0f5e6995b30f846393c5abb969c32028a0fbb1664111696109c5e178bc79d18c",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisiondetectionmode.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisionDetectionMode.d.ts": {
         "version": "e7e6d3d8c446a03a51cb79529165cce4c4cc47d9c904567a4d70b1f7ebef9ca9",
         "signature": "e7e6d3d8c446a03a51cb79529165cce4c4cc47d9c904567a4d70b1f7ebef9ca9",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisionevent.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisionEvent.d.ts": {
         "version": "7e3f7c2800b2b15549195b6e45f9c52aa68fe206437de35da4068cd26cbeed74",
         "signature": "7e3f7c2800b2b15549195b6e45f9c52aa68fe206437de35da4068cd26cbeed74",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisioneventtype.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisionEventType.d.ts": {
         "version": "ca455fc55fb028d920b60c7c08f66d26ba2c14cac3d583b3d032630780b855a4",
         "signature": "ca455fc55fb028d920b60c7c08f66d26ba2c14cac3d583b3d032630780b855a4",
         "affectsGlobalScope": false
@@ -976,12 +976,12 @@
         "signature": "18d45baa9ebcefd7949583284bb4402810a93628f62678d7c897641190a22794",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/rigidbodyconstraints.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/rigidBodyConstraints.d.ts": {
         "version": "4973a02d0768bd9ce6af494e1a32f0bbf90cbe6447c2a0182ada91f4bb4c1bd3",
         "signature": "4973a02d0768bd9ce6af494e1a32f0bbf90cbe6447c2a0182ada91f4bb4c1bd3",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/triggerevent.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/triggerEvent.d.ts": {
         "version": "2dcf89fb78fb274b10297b3a298320249205f362e48bdde0862ccab5a4ef3213",
         "signature": "2dcf89fb78fb274b10297b3a298320249205f362e48bdde0862ccab5a4ef3213",
         "affectsGlobalScope": false
@@ -991,7 +991,7 @@
         "signature": "f8a761faf8c884872d0dd58b71e424ba913d0f87fb6040f8d0acc629b96c24f9",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actorinternal.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actorInternal.d.ts": {
         "version": "fa03a98b8a9c0d7836fa912e411d22e6016bf5994d09b06b45843adc110fa781",
         "signature": "fa03a98b8a9c0d7836fa912e411d22e6016bf5994d09b06b45843adc110fa781",
         "affectsGlobalScope": false
@@ -1001,7 +1001,7 @@
         "signature": "8d689105114469d18ada5e564bfccbbfe39093175db97910b465f5797ea960ad",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actortransform.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actorTransform.d.ts": {
         "version": "b60198872c4f230608fc3747cea0344d27ad366ade781ca55e8252f22dd691f0",
         "signature": "b60198872c4f230608fc3747cea0344d27ad366ade781ca55e8252f22dd691f0",
         "affectsGlobalScope": false
@@ -1021,7 +1021,7 @@
         "signature": "0e1d10e5007f80474b64b418965466a28cf4c19c66322f9a3b5aed55331db61d",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/lookat.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/lookAt.d.ts": {
         "version": "719ef44adac57fbd69362942f7589bf0b56e34013a0f5a225b4ac9054954b3c3",
         "signature": "719ef44adac57fbd69362942f7589bf0b56e34013a0f5a225b4ac9054954b3c3",
         "affectsGlobalScope": false
@@ -1046,12 +1046,12 @@
         "signature": "fdf0697ac3b29267e10c13441a2e394cea406dd43940e41831dd7dd782f01f7f",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationinternal.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationInternal.d.ts": {
         "version": "57deb7961b385aa75a5298e3702ebf45826da143980940a81f996484c0862872",
         "signature": "57deb7961b385aa75a5298e3702ebf45826da143980940a81f996484c0862872",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetinternal.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetInternal.d.ts": {
         "version": "3d45548aa12ebde47573dd5d7cd37d8f45e7fe368de23d83afbe767a82cb398b",
         "signature": "3d45548aa12ebde47573dd5d7cd37d8f45e7fe368de23d83afbe767a82cb398b",
         "affectsGlobalScope": false
@@ -1061,7 +1061,7 @@
         "signature": "8ace0ae2b58075e9146da3e22cf75100e76a0d5d64c9c860f9cd4c338664bdf8",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationdata.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationData.d.ts": {
         "version": "00e0b121db0cdabc3b4798829032f5013047e121b174e765986f22d1190b4415",
         "signature": "00e0b121db0cdabc3b4798829032f5013047e121b174e765986f22d1190b4415",
         "affectsGlobalScope": false
@@ -1071,17 +1071,17 @@
         "signature": "d9013c8ea566fab162efe29970329f656d5a9553c099f9efd7dd50e24f2da059",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationeasecurves.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationEaseCurves.d.ts": {
         "version": "409b18da1f16b1ae3541efd257828f8fa8b770812a098eac246306bbe257ea2a",
         "signature": "409b18da1f16b1ae3541efd257828f8fa8b770812a098eac246306bbe257ea2a",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationwrapmode.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationWrapMode.d.ts": {
         "version": "f4c70f31f6aad7368013f9a031d49ebfa14b2fdcad0186ca3b769f0578ee62d8",
         "signature": "f4c70f31f6aad7368013f9a031d49ebfa14b2fdcad0186ca3b769f0578ee62d8",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/targetpaths.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/targetPaths.d.ts": {
         "version": "e85fb12540e3eebf4b87f6fc441a576b2db9ad57c87473bff133bb2f5aefffc9",
         "signature": "e85fb12540e3eebf4b87f6fc441a576b2db9ad57c87473bff133bb2f5aefffc9",
         "affectsGlobalScope": false
@@ -1091,12 +1091,12 @@
         "signature": "a01ab76038d8660d00ec4de5c4674814fbc19e6fafeed4e7c6d0717ebfaf6152",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetcontainer.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetContainer.d.ts": {
         "version": "b79e3c093d040a5c8373512b4e697d2f22d97091bb969b3a5cedde37158f7439",
         "signature": "b79e3c093d040a5c8373512b4e697d2f22d97091bb969b3a5cedde37158f7439",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetiterator.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetIterator.d.ts": {
         "version": "ded69ce514a9051d1de075b7acded56fc264005395e98a0a8072e9b4b69d9641",
         "signature": "ded69ce514a9051d1de075b7acded56fc264005395e98a0a8072e9b4b69d9641",
         "affectsGlobalScope": false
@@ -1126,7 +1126,7 @@
         "signature": "4d7b0c6120cf0df6996a1aaa2b0fc4187cda16b9cc5fa1b16f86f3d5f4065476",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/videostream.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/videoStream.d.ts": {
         "version": "1157420be01f14b97a0c77481613f065b0aea46972b89b97dd3c2642b0f2a354",
         "signature": "1157420be01f14b97a0c77481613f065b0aea46972b89b97dd3c2642b0f2a354",
         "affectsGlobalScope": false
@@ -1136,7 +1136,7 @@
         "signature": "ae5dcf725be9bf20a82b445731279d8334f7e1fac10e5036743e676e55d364da",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/performancestats.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/performanceStats.d.ts": {
         "version": "e01ebf72c348d00f51659dde85661db59dce0afbe36ad1c83f8b89b7d0474740",
         "signature": "e01ebf72c348d00f51659dde85661db59dce0afbe36ad1c83f8b89b7d0474740",
         "affectsGlobalScope": false
@@ -1146,17 +1146,17 @@
         "signature": "15deff5893204fadfe815be6c38b90267fd994396b5f7e3ed2df185b9035926b",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/multipeeradapter.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/multipeerAdapter.d.ts": {
         "version": "bae343ff2272892e555c27409ead5ac96c0e7f03b2443bf801314aea15ded65a",
         "signature": "bae343ff2272892e555c27409ead5ac96c0e7f03b2443bf801314aea15ded65a",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/parameterset.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/parameterSet.d.ts": {
         "version": "ff59ed8631ca313fc0f99317b52dd23f98d4674324da277a304c5e68ae273b5d",
         "signature": "ff59ed8631ca313fc0f99317b52dd23f98d4674324da277a304c5e68ae273b5d",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/primitivetypes.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/primitiveTypes.d.ts": {
         "version": "cfa698f6bcd542af153b61918fe45a4398d9ce1ef4ac6d2aabf0d37f70e6ceb8",
         "signature": "cfa698f6bcd542af153b61918fe45a4398d9ce1ef4ac6d2aabf0d37f70e6ceb8",
         "affectsGlobalScope": false
@@ -1166,7 +1166,7 @@
         "signature": "3d562491de948ff8ffecf74973388b4fe1de05f06a7b21b718c0c3b7a04de0c8",
         "affectsGlobalScope": false
       },
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/websocketadapter.d.ts": {
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/websocketAdapter.d.ts": {
         "version": "e9d3c42fc10e26482d5e1b9a059f6a87f5c65520ae42b5a549db1f8b9ccd6e39",
         "signature": "e9d3c42fc10e26482d5e1b9a059f6a87f5c65520ae42b5a549db1f8b9ccd6e39",
         "affectsGlobalScope": false
@@ -1181,24 +1181,24 @@
         "signature": "bd30f27645e63b7ecfdba60baf818057d5a32bd341ab433985a98d95b1b492af",
         "affectsGlobalScope": false
       },
-      "./src/wearhat.ts": {
+      "./src/wearHat.ts": {
         "version": "076b74704cc5d6f89a6a09d2ed4752c78da70738577c173e3b27a8df56602114",
-        "signature": "01ec3c2c52741e6d9101b99819df6d49d213d128bc5bcc88d7445b5a24bf4e35",
+        "signature": "6f4190b55522b43018b049852e48e882618ef47ae7c709f5cef8469cc4d87552",
         "affectsGlobalScope": false
       },
       "./src/app.ts": {
-        "version": "a578e4dc205bd6e0c62908715743e546caf1c849556880cadd599ac8a915a756",
-        "signature": "8c4eb98c497ebd7c3c4d4ee95de33df0bc2044d21109c0a8265d2b0f495579ca",
+        "version": "ca3288aba70a8588265ad6a9f9a50368d7b395794988f9f2fb289da32e2c71ee",
+        "signature": "2115b08441366048195147d1413e34c0d93960638c02474e38f2e13bb395efcd",
         "affectsGlobalScope": false
       },
-      "./src/groupmask.ts": {
+      "./src/groupMask.ts": {
         "version": "b429ad0360f006b4f122089792aca601de76d02015cab60845e9b78a08fa6000",
-        "signature": "64ed301a7a617d120d7c4e5bcbec4d8c3b2a4a0529080674310d2462f97a824a",
+        "signature": "9df099c3d00f895f292a41736197167980c17949cb8b6ede4b8e48e4bf61b04e",
         "affectsGlobalScope": false
       },
-      "./src/interactiveboard.ts": {
+      "./src/interactiveBoard.ts": {
         "version": "b907be1456f7a2046b9e440c1d09bce6619f74cec5b7acf0b196542af5d227b5",
-        "signature": "37c16e17d0fe2fd4e1d407249a21e23956a55fe517e9d57d50bd8594e888e9a1",
+        "signature": "dd493793aef6a081f0c1fafe92a01296799806ee788497d4f621e83ad40e6f93",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/dotenv/index.d.ts": {
@@ -1207,8 +1207,8 @@
         "affectsGlobalScope": false
       },
       "./src/server.ts": {
-        "version": "34a69891466601a465e4f6914b414e2e9106cee8e4534f8f5eb8ee03fa44299f",
-        "signature": "dc564680890156170d57f244fb19cdef17124fc82d756ffa36a826a3ae20d1ef",
+        "version": "10f170433d544d0828621dac8354a06ff834679bdcf946b963afdbd78556cf92",
+        "signature": "1bdaab87b793f49e745a6a1700bd74197b0a088d4e90ddc6f5bcb1a227fe826b",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/eslint-visitor-keys/index.d.ts": {
@@ -1273,7 +1273,7 @@
         "./node_modules/@microsoft/mixed-reality-extension-common/built/math/angle.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-common/built/math/arc2.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-common/built/math/axis.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-common/built/math/beziercurve.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-common/built/math/bezierCurve.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-common/built/math/color3.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-common/built/math/color4.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-common/built/math/constants.d.ts",
@@ -1311,18 +1311,18 @@
         "./node_modules/@microsoft/mixed-reality-extension-common/built/math/types.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actor.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actorinternal.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actorInternal.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actorinternal.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderinternal.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actorInternal.d.ts": [
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderInternal.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actortransform.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actorTransform.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/appearance.d.ts": [
@@ -1334,47 +1334,47 @@
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/action.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/actionevent.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/actionEvent.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/behavior.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/buttonbehavior.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/targetbehavior.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/buttonBehavior.d.ts": [
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/targetBehavior.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/index.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/action.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/actionevent.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/actionstates.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/actionEvent.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/actionStates.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/behavior.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/behaviortypes.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/buttonbehavior.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/penbehavior.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/targetbehavior.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/toolbehavior.d.ts"
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/behaviorTypes.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/buttonBehavior.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/penBehavior.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/targetBehavior.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/toolBehavior.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/penbehavior.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/penBehavior.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/targetbehavior.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/targetBehavior.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/behavior.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/toolbehavior.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/toolBehavior.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/index.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actor.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actortransform.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actorTransform.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/appearance.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/attachment.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/light.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/lookat.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/lookAt.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/text.d.ts",
@@ -1383,53 +1383,53 @@
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/light.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/lookat.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/lookAt.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/index.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/mediacommand.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/mediainstance.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/setmediastateoptions.d.ts"
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/mediaCommand.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/mediaInstance.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/setMediaStateOptions.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/mediainstance.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/mediaInstance.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collider.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderinternal.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderInternal.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collidergeometry.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderGeometry.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderinternal.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderInternal.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collision.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisionevent.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisionEvent.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/index.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collider.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collidergeometry.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collidertype.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderGeometry.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderType.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collision.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisiondetectionmode.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisionevent.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisioneventtype.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisionDetectionMode.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisionEvent.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisionEventType.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/rigidBodyConstraints.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/rigidbody.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/rigidbodyconstraints.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/triggerevent.d.ts"
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/triggerEvent.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/physicsbridge.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/physicsBridge.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/rigidbody.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/triggerevent.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/triggerEvent.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/text.d.ts": [
@@ -1442,128 +1442,128 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animation.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationdata.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationinternal.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationData.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationInternal.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationdata.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationData.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/asset.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetinternal.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetInternal.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationinternal.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationInternal.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/index.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animatible.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animation.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationdata.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationeasecurves.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationwrapmode.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/targetpaths.d.ts"
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationData.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationEaseCurves.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationWrapMode.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/targetPaths.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/targetpaths.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/targetPaths.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animatible.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/asset.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetcontainer.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetContainer.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetinternal.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetInternal.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetiterator.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetIterator.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/index.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/asset.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetcontainer.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetiterator.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetContainer.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetIterator.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/material.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/mesh.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/prefab.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/sound.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/texture.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/videostream.d.ts"
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/videoStream.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/material.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/asset.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetinternal.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetInternal.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/texture.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/mesh.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/asset.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetinternal.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetInternal.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/prefab.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/asset.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetinternal.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetInternal.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/sound.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/asset.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetinternal.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetInternal.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/texture.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/asset.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetinternal.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetInternal.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/videostream.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/videoStream.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/asset.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetinternal.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetInternal.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/context.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/contextinternal.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/performancestats.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/contextInternal.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/performanceStats.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/contextinternal.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/physicsbridge.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/contextInternal.d.ts": [
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/physicsBridge.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/index.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/context.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/multipeeradapter.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/parameterset.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/performancestats.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/primitivetypes.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/multipeerAdapter.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/parameterSet.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/performanceStats.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/primitiveTypes.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/rpc.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/websocketadapter.d.ts"
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/websocketAdapter.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/multipeeradapter.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/multipeerAdapter.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/primitivetypes.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/primitiveTypes.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/rpc.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/websocketadapter.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/websocketAdapter.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts": [
@@ -1590,56 +1590,56 @@
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/clientdesyncpreprocessor.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/clientDesyncPreprocessor.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/index.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/client.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/clientdesyncpreprocessor.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/clientDesyncPreprocessor.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/rules.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/session.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncactor.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncanimation.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncasset.d.ts"
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncActor.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncAnimation.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncAsset.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientexecution.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientExecution.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/payloads/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/index.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clienthandshake.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientHandshake.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientstartup.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientStartup.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientsync.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientSync.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/index.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientexecution.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clienthandshake.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientstartup.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientsync.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionexecution.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionhandshake.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionsync.d.ts"
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientExecution.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientHandshake.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientStartup.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientSync.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionExecution.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionHandshake.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionSync.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionexecution.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionExecution.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/payloads/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionhandshake.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionHandshake.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionsync.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionSync.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/index.d.ts"
       ],
@@ -1653,15 +1653,15 @@
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncactor.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncActor.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncanimation.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncAnimation.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncasset.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncAsset.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
@@ -1670,7 +1670,7 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/eventedconnection.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/eventedConnection.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/connection.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
@@ -1679,17 +1679,17 @@
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/index.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/connection.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/eventedconnection.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/networkstats.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/nullconnection.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/eventedConnection.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/networkStats.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/nullConnection.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/pipe.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/websocket.d.ts"
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/webSocket.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/networkstats.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/networkStats.d.ts": [
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/nullconnection.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/nullConnection.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@types/node/events.d.ts",
@@ -1698,23 +1698,23 @@
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/pipe.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/websocket.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/eventedconnection.d.ts"
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/webSocket.d.ts": [
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/eventedConnection.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/constants.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/eventemitterlike.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/exportedpromise.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/eventEmitterLike.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/exportedPromise.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/message.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/operatingmodel.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/operationresultcode.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/operatingModel.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/operationResultCode.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/patchable.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/payloads/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/index.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/queuedpromise.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/subscriptiontype.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/queuedPromise.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/subscriptionType.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/trace.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/index.d.ts"
       ],
@@ -1737,14 +1737,14 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/payloads/physics.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/physicsbridge.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/physicsBridge.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/payloads/sync.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/clientpreprocessing.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/clientPreprocessing.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/execution.d.ts": [
@@ -1760,13 +1760,13 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/index.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/clientpreprocessing.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/clientPreprocessing.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/execution.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/handshake.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/heartbeat.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/middleware.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/protocol.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/serverpreprocessing.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/serverPreprocessing.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/sync.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/middleware.d.ts": [
@@ -1778,7 +1778,7 @@
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/serverpreprocessing.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/serverPreprocessing.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/payloads/index.d.ts"
       ],
@@ -1786,69 +1786,69 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/protocol.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/queuedpromise.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/queuedPromise.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/index.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/deterministicguids.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/exponentialmovingaverage.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/filterempty.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/deterministicGuids.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/exponentialMovingAverage.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/filterEmpty.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/like.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/observe.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/readpath.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/resolvejsonvalues.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/safeaccesspath.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/trackingclock.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/validatejsonfieldname.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/verifyclient.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/visitactor.d.ts"
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/readPath.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/resolveJsonValues.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/safeAccessPath.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/trackingClock.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/validateJsonFieldName.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/verifyClient.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/visitActor.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/like.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/visitactor.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/visitActor.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/groupmask.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/groupMask.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/index.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/groupmask.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/invertedgroupmask.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/groupMask.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/invertedGroupMask.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/permissions.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/user.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/invertedgroupmask.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/groupmask.d.ts"
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/invertedGroupMask.d.ts": [
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/groupMask.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/user.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/userinternal.d.ts"
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/userInternal.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/userinternal.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/contextinternal.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/userInternal.d.ts": [
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/contextInternal.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/index.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/boxalignment.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/boxAlignment.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/errors.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/guid.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/log.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/planargridlayout.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/readonlymap.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/userfilter.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/webhost.d.ts"
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/planarGridLayout.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/readonlyMap.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/userFilter.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/webHost.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/planargridlayout.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/planarGridLayout.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/userfilter.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/userFilter.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/webhost.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/webHost.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@types/node/index.d.ts"
@@ -1999,13 +1999,13 @@
       ],
       "./src/app.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
-        "./src/wearhat.ts"
+        "./src/wearHat.ts"
       ],
-      "./src/groupmask.ts": [
+      "./src/groupMask.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./src/app.ts"
       ],
-      "./src/interactiveboard.ts": [
+      "./src/interactiveBoard.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./src/server.ts": [
@@ -2014,7 +2014,7 @@
         "./node_modules/@types/node/path.d.ts",
         "./src/app.ts"
       ],
-      "./src/wearhat.ts": [
+      "./src/wearHat.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./src/app.ts"
       ]
@@ -2093,12 +2093,12 @@
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actorinternal.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderinternal.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actorInternal.d.ts": [
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderInternal.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actortransform.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actorTransform.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/appearance.d.ts": [
@@ -2110,15 +2110,15 @@
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/action.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/actionevent.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/actionEvent.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/behavior.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/buttonbehavior.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/targetbehavior.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/buttonBehavior.d.ts": [
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/targetBehavior.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/index.d.ts": [
@@ -2132,15 +2132,15 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/targetbehavior.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/toolbehavior.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/penbehavior.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/penBehavior.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/targetbehavior.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/targetBehavior.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/behavior.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/toolbehavior.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/toolBehavior.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/index.d.ts": [
@@ -2159,7 +2159,7 @@
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/light.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/lookat.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/lookAt.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/index.d.ts": [
@@ -2167,23 +2167,23 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/mediainstance.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/setmediastateoptions.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/mediainstance.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/mediaInstance.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collider.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderinternal.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collidergeometry.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderGeometry.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderinternal.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderInternal.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collision.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisionevent.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisionEvent.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/index.d.ts": [
@@ -2198,14 +2198,14 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/rigidbodyconstraints.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/triggerevent.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/physicsbridge.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/physicsBridge.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/rigidbody.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/triggerevent.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/triggerEvent.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/text.d.ts": [
@@ -2223,13 +2223,13 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationdata.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationData.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/asset.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetinternal.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetInternal.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationinternal.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationInternal.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
@@ -2241,21 +2241,21 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationwrapmode.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/targetpaths.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/targetpaths.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/targetPaths.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animatible.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/asset.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetcontainer.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetContainer.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetinternal.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetInternal.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetiterator.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetIterator.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/index.d.ts": [
@@ -2300,9 +2300,9 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/videostream.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/videoStream.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/asset.d.ts",
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetinternal.d.ts",
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetInternal.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
@@ -2314,8 +2314,8 @@
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/contextinternal.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/physicsbridge.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/contextInternal.d.ts": [
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/physicsBridge.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@types/node/index.d.ts"
@@ -2329,17 +2329,17 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/rpc.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/websocketadapter.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/multipeeradapter.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/multipeerAdapter.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/primitivetypes.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/primitiveTypes.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/rpc.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/websocketadapter.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/websocketAdapter.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts": [
@@ -2366,7 +2366,7 @@
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/clientdesyncpreprocessor.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/clientDesyncPreprocessor.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/index.d.ts": [
@@ -2379,21 +2379,21 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncanimation.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncasset.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientexecution.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientExecution.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/payloads/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/index.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clienthandshake.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientHandshake.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientstartup.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientStartup.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientsync.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientSync.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/index.d.ts"
       ],
@@ -2406,16 +2406,16 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionhandshake.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionsync.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionexecution.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionExecution.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/payloads/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionhandshake.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionHandshake.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionsync.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionSync.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/index.d.ts"
       ],
@@ -2429,15 +2429,15 @@
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncactor.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncActor.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncanimation.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncAnimation.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncasset.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncAsset.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
@@ -2446,7 +2446,7 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/eventedconnection.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/eventedConnection.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/connection.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
@@ -2461,11 +2461,11 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/pipe.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/websocket.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/networkstats.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/networkStats.d.ts": [
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/nullconnection.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/nullConnection.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@types/node/events.d.ts",
@@ -2474,8 +2474,8 @@
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/pipe.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/websocket.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/eventedconnection.d.ts"
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/webSocket.d.ts": [
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/eventedConnection.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/index.d.ts",
@@ -2520,7 +2520,7 @@
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/payloads/sync.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/clientpreprocessing.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/clientPreprocessing.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/execution.d.ts": [
@@ -2554,7 +2554,7 @@
         "./node_modules/@types/node/events.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/serverpreprocessing.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/serverPreprocessing.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/payloads/index.d.ts"
       ],
@@ -2562,7 +2562,7 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/protocol.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/queuedpromise.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/queuedPromise.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@types/node/index.d.ts"
       ],
@@ -2583,10 +2583,10 @@
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/like.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/visitactor.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/visitActor.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/groupmask.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/groupMask.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/index.d.ts": [
@@ -2595,16 +2595,16 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/permissions.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/user.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/invertedgroupmask.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/groupmask.d.ts"
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/invertedGroupMask.d.ts": [
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/groupMask.d.ts"
       ],
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/user.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/userinternal.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/userinternal.d.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/contextinternal.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/userInternal.d.ts": [
+        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/contextInternal.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts"
       ],
@@ -2618,13 +2618,13 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/userfilter.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/webhost.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/planargridlayout.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/planarGridLayout.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/userfilter.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/userFilter.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/webhost.d.ts": [
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/webHost.d.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
         "./node_modules/@types/node/index.d.ts"
@@ -2776,14 +2776,14 @@
       "./src/app.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./src/groupmask.ts": [
+      "./src/groupMask.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./src/app.ts"
       ],
-      "./src/interactiveboard.ts": [
+      "./src/interactiveBoard.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
-      "./src/wearhat.ts": [
+      "./src/wearHat.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./src/app.ts"
       ]
@@ -2793,7 +2793,7 @@
       "./node_modules/@microsoft/mixed-reality-extension-common/built/math/angle.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-common/built/math/arc2.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-common/built/math/axis.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-common/built/math/beziercurve.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-common/built/math/bezierCurve.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-common/built/math/color3.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-common/built/math/color4.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-common/built/math/constants.d.ts",
@@ -2812,149 +2812,149 @@
       "./node_modules/@microsoft/mixed-reality-extension-common/built/math/vector4.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-common/built/math/viewport.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actor.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actorinternal.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actortransform.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actorInternal.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/actorTransform.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/appearance.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/attachment.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/action.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/actionevent.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/actionstates.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/actionEvent.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/actionStates.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/behavior.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/behaviortypes.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/buttonbehavior.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/behaviorTypes.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/buttonBehavior.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/index.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/penbehavior.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/targetbehavior.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/toolbehavior.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/penBehavior.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/targetBehavior.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/behaviors/toolBehavior.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/index.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/light.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/lookat.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/lookAt.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/index.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/mediacommand.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/mediainstance.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/setmediastateoptions.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/mediaCommand.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/mediaInstance.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/media/setMediaStateOptions.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collider.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collidergeometry.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderinternal.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collidertype.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderGeometry.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderInternal.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/colliderType.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collision.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisiondetectionmode.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisionevent.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisioneventtype.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisionDetectionMode.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisionEvent.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/collisionEventType.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/index.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/physicsbridge.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/physicsBridge.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/rigidBodyConstraints.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/rigidbody.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/rigidbodyconstraints.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/triggerevent.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/physics/triggerEvent.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/text.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/actor/transform.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animatible.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animation.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationdata.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationeasecurves.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationinternal.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationwrapmode.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationData.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationEaseCurves.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationInternal.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/animationWrapMode.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/index.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/targetpaths.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/animation/targetPaths.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/asset.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetcontainer.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetinternal.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetiterator.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetContainer.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetInternal.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/assetIterator.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/index.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/material.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/mesh.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/prefab.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/sound.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/texture.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/videostream.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/asset/videoStream.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/context.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/contextinternal.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/contextInternal.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/index.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/multipeeradapter.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/parameterset.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/performancestats.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/primitivetypes.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/multipeerAdapter.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/parameterSet.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/performanceStats.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/primitiveTypes.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/rpc.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/websocketadapter.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/core/websocketAdapter.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/adapter.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/index.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/client.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/clientdesyncpreprocessor.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/clientDesyncPreprocessor.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/index.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientexecution.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clienthandshake.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientstartup.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientsync.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientExecution.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientHandshake.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientStartup.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/clientSync.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/index.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionexecution.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionhandshake.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionsync.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionExecution.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionHandshake.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/protocols/sessionSync.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/rules.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/session.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncactor.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncanimation.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncasset.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncActor.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncAnimation.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/adapters/multipeer/syncAsset.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/connection.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/eventedconnection.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/eventedConnection.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/index.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/networkstats.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/nullconnection.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/networkStats.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/nullConnection.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/pipe.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/websocket.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/connection/webSocket.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/constants.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/eventemitterlike.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/exportedpromise.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/eventEmitterLike.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/exportedPromise.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/index.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/message.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/operatingmodel.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/operationresultcode.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/operatingModel.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/operationResultCode.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/patchable.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/payloads/assets.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/payloads/index.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/payloads/payloads.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/payloads/physics.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/payloads/sync.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/clientpreprocessing.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/clientPreprocessing.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/execution.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/handshake.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/heartbeat.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/index.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/middleware.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/protocol.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/serverpreprocessing.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/serverPreprocessing.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/protocols/sync.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/queuedpromise.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/subscriptiontype.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/queuedPromise.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/subscriptionType.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/trace.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/deterministicguids.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/exponentialmovingaverage.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/filterempty.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/deterministicGuids.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/exponentialMovingAverage.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/filterEmpty.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/index.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/like.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/observe.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/readpath.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/resolvejsonvalues.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/safeaccesspath.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/trackingclock.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/validatejsonfieldname.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/verifyclient.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/visitactor.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/groupmask.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/readPath.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/resolveJsonValues.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/safeAccessPath.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/trackingClock.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/validateJsonFieldName.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/verifyClient.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/internal/util/visitActor.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/groupMask.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/index.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/invertedgroupmask.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/invertedGroupMask.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/permissions.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/user.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/userinternal.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/boxalignment.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/user/userInternal.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/boxAlignment.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/errors.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/guid.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/index.d.ts",
       "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/log.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/planargridlayout.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/readonlymap.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/userfilter.d.ts",
-      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/webhost.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/planarGridLayout.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/readonlyMap.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/userFilter.d.ts",
+      "./node_modules/@microsoft/mixed-reality-extension-sdk/built/util/webHost.d.ts",
       "./node_modules/@types/dotenv/index.d.ts",
       "./node_modules/@types/eslint-visitor-keys/index.d.ts",
       "./node_modules/@types/json-schema/index.d.ts",
@@ -3029,10 +3029,10 @@
       "./node_modules/typescript/lib/lib.es5.d.ts",
       "./node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "./src/app.ts",
-      "./src/groupmask.ts",
-      "./src/interactiveboard.ts",
+      "./src/groupMask.ts",
+      "./src/interactiveBoard.ts",
       "./src/server.ts",
-      "./src/wearhat.ts"
+      "./src/wearHat.ts"
     ]
   },
   "version": "3.9.9"

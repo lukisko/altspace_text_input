@@ -15,6 +15,7 @@ export default class LearningWorld {
 	private usersTrack: userTrack[];
 	private wearHat: WearHat;
 	private textBoardtext: MRE.Actor;
+	private textBoard: MRE.Actor;
 	//////////////-------------------------------------------------note: make the magnetic field a little into board
 
 	constructor(private context: MRE.Context) {
@@ -28,7 +29,7 @@ export default class LearningWorld {
 			//this.starSystem.start();
 		});
 		this.context.onUserJoined((user) => {
-			//this.starSystem.userJoined(user);
+			this.makeButton();
 		});
 		this.context.onUserLeft((user) => {
 			//this.starSystem.userLeft(user);
@@ -36,67 +37,106 @@ export default class LearningWorld {
 	}
 
 	private started() {
-		const textBoard = MRE.Actor.CreatePrimitive(this.assets,{
-			definition:{
-				shape:MRE.PrimitiveShape.Box,
-				dimensions:{x:2,y:2,z:0.05}
+		this.textBoard = MRE.Actor.CreatePrimitive(this.assets, {
+			definition: {
+				shape: MRE.PrimitiveShape.Box,
+				dimensions: { x: 2, y: 2, z: 0.05 }
 			},
-			addCollider:true
+			addCollider: true
 		});
 
-		const textButton = textBoard.setBehavior(MRE.ButtonBehavior);
-		textButton.onClick((user)=>{
+		this.makeButton();
+
+		/*const textButton = this.textBoard.setBehavior(MRE.ButtonBehavior);
+		textButton.onClick((user) => {
 			user.prompt("Enter some text", true)
-			.then((value)=>{
-				if (value.submitted){
-					if (this.textBoardtext) this.textBoardtext.destroy();
-					this.textBoardtext = MRE.Actor.Create(this.context,{
-						actor:{
-							parentId: textBoard.id,
-							transform:{local:{position:{
-								x:-0.95,y:0,z:-0.052
-							}}},
-							text:{
-								contents:this.formatText(value.text,1.9,14),
-								color:{r:0,g:0,b:0},
-								anchor:MRE.TextAnchorLocation.MiddleLeft,
-								justify: MRE.TextJustify.Left,
-								height: textHeight,
+				.then((value) => {
+					if (value.submitted) {
+						if (this.textBoardtext) this.textBoardtext.destroy();
+						this.textBoardtext = MRE.Actor.Create(this.context, {
+							actor: {
+								parentId: this.textBoard.id,
+								transform: {
+									local: {
+										position: {
+											x: -0.95, y: 0, z: -0.052
+										}
+									}
+								},
+								text: {
+									contents: this.formatText(value.text, 1.9, 14),
+									color: { r: 0, g: 0, b: 0 },
+									anchor: MRE.TextAnchorLocation.MiddleLeft,
+									justify: MRE.TextJustify.Left,
+									height: textHeight,
+								}
 							}
+						})
+					}
+				});
+		});*/
+	}
+
+	private makeButton() {
+		if (this.textBoard) {
+			const textButton = this.textBoard.setBehavior(MRE.ButtonBehavior);
+			textButton.onClick((user) => {
+				user.prompt("Enter some text", true)
+					.then((value) => {
+						if (value.submitted) {
+							if (this.textBoardtext) this.textBoardtext.destroy();
+							this.textBoardtext = MRE.Actor.Create(this.context, {
+								actor: {
+									parentId: this.textBoard.id,
+									transform: {
+										local: {
+											position: {
+												x: -0.95, y: 0, z: -0.052
+											}
+										}
+									},
+									text: {
+										contents: this.formatText(value.text, 1.9, 14),
+										color: { r: 0, g: 0, b: 0 },
+										anchor: MRE.TextAnchorLocation.MiddleLeft,
+										justify: MRE.TextJustify.Left,
+										height: textHeight,
+									}
+								}
+							})
 						}
-					})
-				}
+					});
 			});
-		});
+		}
 	}
 
 	private formatText(text: string, maxWidth: number, maxLines: number): string {
 		//let numberOfLines = 0; implement max number of lines
 		let stringToReturn = "";
-		if (text.length<maxWidth*charPerM){
+		if (text.length < maxWidth * charPerM) {
 			return text;
 		}
 		let j = 0;
-		for (let i = 0;i<maxLines && (stringToReturn.length + maxWidth*charPerM)<text.length;i++){
-			const isBreakLine = text.substr(stringToReturn.length,maxWidth*charPerM).search("\n");
-			console.log(text.substr(stringToReturn.length,maxWidth*charPerM))
+		for (let i = 0; i < maxLines && (stringToReturn.length + maxWidth * charPerM) < text.length; i++) {
+			const isBreakLine = text.substr(stringToReturn.length, maxWidth * charPerM).search("\n");
+			console.log(text.substr(stringToReturn.length, maxWidth * charPerM))
 			console.log(isBreakLine);
-			if (isBreakLine === -1){
-				for (j = Math.ceil(stringToReturn.length + maxWidth*charPerM); text[j]!==" "; j--){
+			if (isBreakLine === -1) {
+				for (j = Math.ceil(stringToReturn.length + maxWidth * charPerM); text[j] !== " "; j--) {
 					//nothing
 				}
-			} else {j = stringToReturn.length + isBreakLine}
-			
-			stringToReturn += text.substring(stringToReturn.length,j) + "\n";
+			} else { j = stringToReturn.length + isBreakLine }
+
+			stringToReturn += text.substring(stringToReturn.length, j) + "\n";
 		}
-		if (stringToReturn.length+maxWidth*charPerM<text.length) {
-			console.log(stringToReturn.length+maxWidth*charPerM - 2);
-			for (j = Math.ceil(stringToReturn.length+maxWidth*charPerM -2); text[j]!==" "; j--){
+		if (stringToReturn.length + maxWidth * charPerM < text.length) {
+			console.log(stringToReturn.length + maxWidth * charPerM - 2);
+			for (j = Math.ceil(stringToReturn.length + maxWidth * charPerM - 2); text[j] !== " "; j--) {
 				//nothing
 			}
-			stringToReturn+= text.substring(stringToReturn.length,j)+" ...";//text.substring(stringToReturn.length);
+			stringToReturn += text.substring(stringToReturn.length, j) + " ...";//text.substring(stringToReturn.length);
 		} else {
-			stringToReturn+= text.substring(stringToReturn.length);
+			stringToReturn += text.substring(stringToReturn.length);
 		}
 		return stringToReturn;
 	}
