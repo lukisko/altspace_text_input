@@ -119,8 +119,8 @@ export default class LearningWorld {
 		let j = 0;
 		for (let i = 0; i < maxLines && (stringToReturn.length + maxWidth * charPerM) < text.length; i++) {
 			const isBreakLine = text.substr(stringToReturn.length, maxWidth * charPerM).search("\n");
-			console.log(text.substr(stringToReturn.length, maxWidth * charPerM))
-			console.log(isBreakLine);
+			//console.log(text.substr(stringToReturn.length, maxWidth * charPerM))
+			//console.log(isBreakLine);
 			if (isBreakLine === -1) {
 				for (j = Math.ceil(stringToReturn.length + maxWidth * charPerM); text[j] !== " "; j--) {
 					//nothing
@@ -130,7 +130,7 @@ export default class LearningWorld {
 			stringToReturn += text.substring(stringToReturn.length, j) + "\n";
 		}
 		if (stringToReturn.length + maxWidth * charPerM < text.length) {
-			console.log(stringToReturn.length + maxWidth * charPerM - 2);
+			//console.log(stringToReturn.length + maxWidth * charPerM - 2);
 			for (j = Math.ceil(stringToReturn.length + maxWidth * charPerM - 2); text[j] !== " "; j--) {
 				//nothing
 			}
