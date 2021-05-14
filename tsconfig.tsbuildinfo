@@ -1186,9 +1186,24 @@
         "signature": "6f4190b55522b43018b049852e48e882618ef47ae7c709f5cef8469cc4d87552",
         "affectsGlobalScope": false
       },
+      "./node_modules/pg-types/index.d.ts": {
+        "version": "f60e3e3060207ac982da13363181fd7ee4beecc19a7c569f0d6bb034331066c2",
+        "signature": "f60e3e3060207ac982da13363181fd7ee4beecc19a7c569f0d6bb034331066c2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/pg-protocol/dist/messages.d.ts": {
+        "version": "17230b34bb564a3a2e36f9d3985372ccab4ad1722df2c43f7c5c2b553f68e5db",
+        "signature": "17230b34bb564a3a2e36f9d3985372ccab4ad1722df2c43f7c5c2b553f68e5db",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/pg/index.d.ts": {
+        "version": "02eed0b92a38540d94adccf11b067084cc16a815da1d62e80cec9511d9f0eef2",
+        "signature": "02eed0b92a38540d94adccf11b067084cc16a815da1d62e80cec9511d9f0eef2",
+        "affectsGlobalScope": false
+      },
       "./src/app.ts": {
-        "version": "e5f947f1fbf1a18293948f14e700ef71770a98884bcdf4d96889938498807697",
-        "signature": "2115b08441366048195147d1413e34c0d93960638c02474e38f2e13bb395efcd",
+        "version": "414f416077f3142ebae63521758360b86c637b6e1bb631c4e48f706a1541b7e9",
+        "signature": "0199294ad5e64177dd34dc99e3cbe858b2b8a534daaddf14f870c1f74a607012",
         "affectsGlobalScope": false
       },
       "./src/groupMask.ts": {
@@ -1207,7 +1222,7 @@
         "affectsGlobalScope": false
       },
       "./src/server.ts": {
-        "version": "10f170433d544d0828621dac8354a06ff834679bdcf946b963afdbd78556cf92",
+        "version": "34a69891466601a465e4f6914b414e2e9106cee8e4534f8f5eb8ee03fa44299f",
         "signature": "1bdaab87b793f49e745a6a1700bd74197b0a088d4e90ddc6f5bcb1a227fe826b",
         "affectsGlobalScope": false
       },
@@ -1239,6 +1254,8 @@
       "strictNullChecks": false,
       "moduleResolution": 2,
       "esModuleInterop": true,
+      "watch": true,
+      "preserveWatchOutput": true,
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
@@ -1995,8 +2012,21 @@
       "./node_modules/@types/node/zlib.d.ts": [
         "./node_modules/@types/node/stream.d.ts"
       ],
+      "./node_modules/@types/pg/index.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/pg/index.d.ts",
+        "./node_modules/pg-protocol/dist/messages.d.ts",
+        "./node_modules/pg-types/index.d.ts"
+      ],
+      "./node_modules/pg-protocol/dist/messages.d.ts": [
+        "./node_modules/@types/node/index.d.ts"
+      ],
       "./src/app.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
+        "./node_modules/@types/pg/index.d.ts",
         "./src/wearHat.ts"
       ],
       "./src/groupMask.ts": [
@@ -2771,6 +2801,18 @@
       "./node_modules/@types/node/zlib.d.ts": [
         "./node_modules/@types/node/stream.d.ts"
       ],
+      "./node_modules/@types/pg/index.d.ts": [
+        "./node_modules/@types/node/events.d.ts",
+        "./node_modules/@types/node/index.d.ts",
+        "./node_modules/@types/node/stream.d.ts",
+        "./node_modules/@types/node/tls.d.ts",
+        "./node_modules/@types/pg/index.d.ts",
+        "./node_modules/pg-protocol/dist/messages.d.ts",
+        "./node_modules/pg-types/index.d.ts"
+      ],
+      "./node_modules/pg-protocol/dist/messages.d.ts": [
+        "./node_modules/@types/node/index.d.ts"
+      ],
       "./src/app.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
       ],
@@ -2999,6 +3041,9 @@
       "./node_modules/@types/node/vm.d.ts",
       "./node_modules/@types/node/worker_threads.d.ts",
       "./node_modules/@types/node/zlib.d.ts",
+      "./node_modules/@types/pg/index.d.ts",
+      "./node_modules/pg-protocol/dist/messages.d.ts",
+      "./node_modules/pg-types/index.d.ts",
       "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
       "./node_modules/typescript/lib/lib.es2015.core.d.ts",
       "./node_modules/typescript/lib/lib.es2015.d.ts",
