@@ -18,7 +18,6 @@ export default class LearningWorld {
 	private textBoardtext: MRE.Actor;
 	private textBoard: MRE.Actor;
 	private worldId: string;
-	//////////////-------------------------------------------------note: make the magnetic field a little into board
 
 	constructor(private context: MRE.Context) {
 		this.usersTrack = [];
@@ -46,7 +45,7 @@ export default class LearningWorld {
 		this.textBoard = MRE.Actor.CreatePrimitive(this.assets, {
 			definition: {
 				shape: MRE.PrimitiveShape.Box,
-				dimensions: { x: 2, y: 2, z: 0.05 }
+				dimensions: { x: 2.1, y: 1, z: 0.005 }
 			},
 			addCollider: true
 		});
@@ -61,34 +60,71 @@ export default class LearningWorld {
 				user.prompt("Enter some text", true)
 					.then((value) => {
 						if (value.submitted) {
-							this.updateText(this.formatText(value.text, 1.9, 14));
+							const textOnBoard = this.formatText(value.text, 1.9, 100);
+							const numOfLines = textOnBoard.split("\n").length;
+
+							this.updateText(this.formatText(value.text, 1.9, 100), numOfLines);
 						}
 					});
 			});
 		}
 	}
 
-	private updateText(formatedText: string) {
-		if (this.textBoardtext) this.textBoardtext.destroy();
-		this.textBoardtext = MRE.Actor.Create(this.context, {
-			actor: {
-				parentId: this.textBoard.id,
+	private updateText(formatedText: string, numOfLines: number) {
+		if (this.textBoardtext){
+			this.textBoardtext.text.contents = "";
+		}
+		MRE.Animation.AnimateTo(this.context, this.textBoard, {
+			destination: {
 				transform: {
 					local: {
-						position: {
-							x: -0.95, y: 0, z: -0.052
+						scale: {
+							y: numOfLines * (textHeight+0.02) + 0.1
 						}
 					}
-				},
-				text: {
-					contents: formatedText,
-					color: { r: 0, g: 0, b: 0 },
-					anchor: MRE.TextAnchorLocation.MiddleLeft,
-					justify: MRE.TextJustify.Left,
-					height: textHeight,
 				}
-			}
+			},
+			duration: 1
+		}).then(() => {
+			if (this.textBoardtext) this.textBoardtext.destroy();
+			this.textBoardtext = MRE.Actor.Create(this.context, {
+				actor: {
+					//parentId: this.textBoard.id,
+					transform: {
+						local: {
+							position: {
+								x: -1, y: 0, z: -0.02
+							}
+						}
+					},
+					text: {
+						contents: formatedText,
+						color: { r: 0, g: 0, b: 0 },
+						anchor: MRE.TextAnchorLocation.MiddleLeft,
+						justify: MRE.TextJustify.Left,
+						height: textHeight,
+					}
+				}
+			});
 		})
+
+	}
+
+	private littleLetters: string[] = ['I','l','i','j','r','t','f',' ','.',':',',','\''];
+
+	private getTextLength(text: string, height: number): number{
+		let arr = text.split("");
+		let totalWidth = 0;
+		const littleConst = height * 0.2;
+		const otherConst = height * 0.7;
+		arr.map((value)=>{
+			if (this.littleLetters.includes(value)){
+				totalWidth += littleConst;
+			} else {
+				totalWidth += otherConst;
+			}
+		});
+		return totalWidth
 	}
 
 	private formatText(text: string, maxWidth: number, maxLines: number): string {
@@ -102,6 +138,7 @@ export default class LearningWorld {
 			const isBreakLine = text.substr(stringToReturn.length, maxWidth * charPerM).search("\n");
 			//console.log(text.substr(stringToReturn.length, maxWidth * charPerM))
 			//console.log(isBreakLine);
+			
 			if (isBreakLine === -1) {
 				for (j = Math.ceil(stringToReturn.length + maxWidth * charPerM); text[j] !== " "; j--) {
 					//nothing
@@ -132,7 +169,8 @@ export default class LearningWorld {
 				if (err) throw err;
 				for (let row of res.rows) {
 					//console.log(row['label_text']);
-					this.updateText(row['label_text']);
+					const numOfLines = row['label_text'].split("\n").length;
+					this.updateText(row['label_text'], numOfLines);
 				}
 				client.end();
 			});
