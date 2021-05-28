@@ -1,5 +1,4 @@
 import * as MRE from '@microsoft/mixed-reality-extension-sdk';
-import WearHat from "./wearHat";
 import postgres from "pg";
 
 export type userTrack = {
@@ -13,14 +12,11 @@ const charPerM = 18;
 
 export default class LearningWorld {
 	private assets: MRE.AssetContainer;
-	private usersTrack: userTrack[];
-	private wearHat: WearHat;
 	private textBoardtext: MRE.Actor;
 	private textBoard: MRE.Actor;
 	private worldId: string;
 
 	constructor(private context: MRE.Context) {
-		this.usersTrack = [];
 		this.assets = new MRE.AssetContainer(this.context);
 		//this.starSystem = new groupMask(this.context, this.assets, this.usersTrack);
 		//this.wearHat = new WearHat(this.context, this.assets,
@@ -71,7 +67,7 @@ export default class LearningWorld {
 	}
 
 	private updateText(formatedText: string, numOfLines: number) {
-		if (this.textBoardtext){
+		if (this.textBoardtext) {
 			this.textBoardtext.text.contents = "";
 		}
 		MRE.Animation.AnimateTo(this.context, this.textBoard, {
@@ -79,14 +75,14 @@ export default class LearningWorld {
 				transform: {
 					local: {
 						scale: {
-							y: numOfLines * (textHeight+0.02) + 0.1
+							y: numOfLines * (textHeight + 0.03) + 0.1
 						}
 					}
 				}
 			},
 			duration: 1
 		}).then(() => {
-			if (this.textBoardtext) this.textBoardtext.destroy();
+			if (this.textBoardtext) { this.textBoardtext.destroy(); }
 			this.textBoardtext = MRE.Actor.Create(this.context, {
 				actor: {
 					//parentId: this.textBoard.id,
@@ -110,23 +106,6 @@ export default class LearningWorld {
 
 	}
 
-	private littleLetters: string[] = ['I','l','i','j','r','t','f',' ','.',':',',','\''];
-
-	private getTextLength(text: string, height: number): number{
-		let arr = text.split("");
-		let totalWidth = 0;
-		const littleConst = height * 0.2;
-		const otherConst = height * 0.7;
-		arr.map((value)=>{
-			if (this.littleLetters.includes(value)){
-				totalWidth += littleConst;
-			} else {
-				totalWidth += otherConst;
-			}
-		});
-		return totalWidth
-	}
-
 	private formatText(text: string, maxWidth: number, maxLines: number): string {
 		//let numberOfLines = 0; implement max number of lines
 		let stringToReturn = "";
@@ -138,7 +117,7 @@ export default class LearningWorld {
 			const isBreakLine = text.substr(stringToReturn.length, maxWidth * charPerM).search("\n");
 			//console.log(text.substr(stringToReturn.length, maxWidth * charPerM))
 			//console.log(isBreakLine);
-			
+
 			if (isBreakLine === -1) {
 				for (j = Math.ceil(stringToReturn.length + maxWidth * charPerM); text[j] !== " "; j--) {
 					//nothing
@@ -166,8 +145,8 @@ export default class LearningWorld {
 
 		client.query('SELECT label_text from text_upload where session_id=$1 AND world_id=$2',
 			[this.context.sessionId, this.worldId], (err, res) => {
-				if (err) throw err;
-				for (let row of res.rows) {
+				if (err) { throw err; }
+				for (const row of res.rows) {
 					//console.log(row['label_text']);
 					const numOfLines = row['label_text'].split("\n").length;
 					this.updateText(row['label_text'], numOfLines);
@@ -196,15 +175,18 @@ export default class LearningWorld {
 	}
 
 	private saveToDatabase() {
+		if (!this.textBoardtext) {
+			return;
+		}
 		const client = this.getDatabaseClient();
 
 		client.connect();
 		client.query('insert into text_upload (session_id, world_id, label_text)' +
 			' values ($1,$2,$3) ON CONFLICT (session_id,world_id)' +
 			' DO UPDATE SET label_text = EXCLUDED.label_text;',
-			[this.context.sessionId, this.worldId, this.textBoardtext.text.contents], (err, res) => {
+		[this.context.sessionId, this.worldId, this.textBoardtext.text.contents], (err, res) => {
 
-				client.end();
-			});
+			client.end();
+		});
 	}
 }

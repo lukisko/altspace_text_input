@@ -1181,11 +1181,6 @@
         "signature": "bd30f27645e63b7ecfdba60baf818057d5a32bd341ab433985a98d95b1b492af",
         "affectsGlobalScope": false
       },
-      "./src/wearHat.ts": {
-        "version": "076b74704cc5d6f89a6a09d2ed4752c78da70738577c173e3b27a8df56602114",
-        "signature": "6f4190b55522b43018b049852e48e882618ef47ae7c709f5cef8469cc4d87552",
-        "affectsGlobalScope": false
-      },
       "./node_modules/pg-types/index.d.ts": {
         "version": "f60e3e3060207ac982da13363181fd7ee4beecc19a7c569f0d6bb034331066c2",
         "signature": "f60e3e3060207ac982da13363181fd7ee4beecc19a7c569f0d6bb034331066c2",
@@ -1202,8 +1197,8 @@
         "affectsGlobalScope": false
       },
       "./src/app.ts": {
-        "version": "c5a5fc972c0db6b991e2ddeaa01fd7ff353e3caa010fbf7da656267b8abec886",
-        "signature": "4dbb1d935e6314b0789db9c2582e463d2100c688dff90f929fb3f8f99758a930",
+        "version": "ec4b9b9c493d9bc24a9615a73306ea777ef9caf4a85a8be0ebe2e1b62a2ea196",
+        "signature": "2ebacbad525bc4e38c4bd9d56a0374e265933ee646d5281690d2abd9d1635022",
         "affectsGlobalScope": false
       },
       "./src/groupMask.ts": {
@@ -1224,6 +1219,11 @@
       "./src/server.ts": {
         "version": "34a69891466601a465e4f6914b414e2e9106cee8e4534f8f5eb8ee03fa44299f",
         "signature": "1bdaab87b793f49e745a6a1700bd74197b0a088d4e90ddc6f5bcb1a227fe826b",
+        "affectsGlobalScope": false
+      },
+      "./src/wearHat.ts": {
+        "version": "076b74704cc5d6f89a6a09d2ed4752c78da70738577c173e3b27a8df56602114",
+        "signature": "6f4190b55522b43018b049852e48e882618ef47ae7c709f5cef8469cc4d87552",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/eslint-visitor-keys/index.d.ts": {
@@ -1254,8 +1254,6 @@
       "strictNullChecks": false,
       "moduleResolution": 2,
       "esModuleInterop": true,
-      "watch": true,
-      "preserveWatchOutput": true,
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
@@ -2026,8 +2024,7 @@
       ],
       "./src/app.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
-        "./node_modules/@types/pg/index.d.ts",
-        "./src/wearHat.ts"
+        "./node_modules/@types/pg/index.d.ts"
       ],
       "./src/groupMask.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
