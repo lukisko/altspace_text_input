@@ -75,7 +75,7 @@ export default class LearningWorld {
 				transform: {
 					local: {
 						scale: {
-							y: numOfLines * (textHeight + 0.03) + 0.1
+							y: numOfLines * (textHeight) * 1.2 + 0.08
 						}
 					}
 				}
@@ -89,7 +89,7 @@ export default class LearningWorld {
 					transform: {
 						local: {
 							position: {
-								x: -1, y: 0, z: -0.02
+								x: -1, y: 0, z: -0.01
 							}
 						}
 					},
@@ -99,6 +99,7 @@ export default class LearningWorld {
 						anchor: MRE.TextAnchorLocation.MiddleLeft,
 						justify: MRE.TextJustify.Left,
 						height: textHeight,
+						//font: MRE.TextFontFamily.Monospace
 					}
 				}
 			});
