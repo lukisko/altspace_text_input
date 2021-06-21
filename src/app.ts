@@ -9,7 +9,10 @@ export type userTrack = {
 
 const textHeight = 0.11;
 const charPerM = 18;
+const boardWidth = 3;
 
+const iGroup = ['i','l','t',' ','r','I','f','j','J'];
+const mGroup = ['m','w'];//capital letters
 export default class LearningWorld {
 	private assets: MRE.AssetContainer;
 	private textBoardtext: MRE.Actor;
@@ -41,7 +44,7 @@ export default class LearningWorld {
 		this.textBoard = MRE.Actor.CreatePrimitive(this.assets, {
 			definition: {
 				shape: MRE.PrimitiveShape.Box,
-				dimensions: { x: 2.1, y: 1, z: 0.005 }
+				dimensions: { x: boardWidth+0.1, y: 1, z: 0.005 }
 			},
 			addCollider: true
 		});
@@ -53,13 +56,13 @@ export default class LearningWorld {
 		if (this.textBoard) {
 			const textButton = this.textBoard.setBehavior(MRE.ButtonBehavior);
 			textButton.onClick((user) => {
-				user.prompt("Enter some text", true)
+				user.prompt("Add text", true)
 					.then((value) => {
 						if (value.submitted) {
-							const textOnBoard = this.formatText(value.text, 1.9, 100);
+							const textOnBoard = this.formatText(value.text, boardWidth, 100);
 							const numOfLines = textOnBoard.split("\n").length;
 
-							this.updateText(this.formatText(value.text, 1.9, 100), numOfLines);
+							this.updateText(textOnBoard, numOfLines);
 						}
 					});
 			});
@@ -89,7 +92,7 @@ export default class LearningWorld {
 					transform: {
 						local: {
 							position: {
-								x: -1, y: 0, z: -0.01
+								x: -boardWidth/2, y: 0, z: -0.01
 							}
 						}
 					},
@@ -99,7 +102,6 @@ export default class LearningWorld {
 						anchor: MRE.TextAnchorLocation.MiddleLeft,
 						justify: MRE.TextJustify.Left,
 						height: textHeight,
-						//font: MRE.TextFontFamily.Monospace
 					}
 				}
 			});
@@ -107,32 +109,69 @@ export default class LearningWorld {
 
 	}
 
+
+	private whereEndLine(text: string, start: number, width: number, 
+		mWidth: number, iWidth: number, aWidth: number): number{
+		let lineWidth = 0; // in meters
+		let lastSpaceIndex;
+		let i = 0
+		for (i = start; lineWidth<width && i<text.length; i++){
+			if (text[i] === "\n"){
+				return i;
+			}
+			if (text[i] === " "){
+				lastSpaceIndex = i;
+			}
+			if (mGroup.includes(text[i])){
+				lineWidth += mWidth;
+			} else if (text[i].toUpperCase() === text[i]){
+				lineWidth += mWidth;
+			} else if (iGroup.includes(text[i])){
+				lineWidth += iWidth;
+			} else {
+				lineWidth += aWidth;
+			}
+		}
+		if (i === text.length){
+			return text.length;
+		}
+		return lastSpaceIndex;
+	}
+
 	private formatText(text: string, maxWidth: number, maxLines: number): string {
-		//let numberOfLines = 0; implement max number of lines
+		//init value to return
 		let stringToReturn = "";
+		
+		//if the text will fit to the one line just return it.
 		if (text.length < maxWidth * charPerM) {
 			return text;
 		}
+
+		//this variable show where to cut the text
 		let j = 0;
-		for (let i = 0; i < maxLines && (stringToReturn.length + maxWidth * charPerM) < text.length; i++) {
-			const isBreakLine = text.substr(stringToReturn.length, maxWidth * charPerM).search("\n");
-			//console.log(text.substr(stringToReturn.length, maxWidth * charPerM))
-			//console.log(isBreakLine);
+
+		const charPerLine = maxWidth * charPerM;
+
+		//iterate each time to find out where to put end of line char
+		for (let i = 0; i < maxLines && (stringToReturn.length+1) < text.length; i++) {
+			/*const isBreakLine = text.substr(stringToReturn.length, charPerLine).search("\n");
 
 			if (isBreakLine === -1) {
-				for (j = Math.ceil(stringToReturn.length + maxWidth * charPerM); text[j] !== " "; j--) {
+				for (j = Math.ceil(stringToReturn.length + charPerLine); text[j] !== " "; j--) {
 					//nothing
 				}
-			} else { j = stringToReturn.length + isBreakLine }
+			} else { j = stringToReturn.length + isBreakLine }*/
+			j = this.whereEndLine(text,stringToReturn.length,maxWidth*1.2,3/22,2/80,2/37); //20,70,33
 
 			stringToReturn += text.substring(stringToReturn.length, j) + "\n";
 		}
-		if (stringToReturn.length + maxWidth * charPerM < text.length) {
-			//console.log(stringToReturn.length + maxWidth * charPerM - 2);
-			for (j = Math.ceil(stringToReturn.length + maxWidth * charPerM - 2); text[j] !== " "; j--) {
+
+		//if there is more text than the one that can fit on the board last sentence will have "..." at end 
+		if (stringToReturn.length + charPerLine < text.length) {
+			for (j = Math.ceil(stringToReturn.length + charPerLine - 2); text[j] !== " "; j--) {
 				//nothing
 			}
-			stringToReturn += text.substring(stringToReturn.length, j) + " ...";//text.substring(stringToReturn.length);
+			stringToReturn += text.substring(stringToReturn.length, j) + " ...";
 		} else {
 			stringToReturn += text.substring(stringToReturn.length);
 		}
