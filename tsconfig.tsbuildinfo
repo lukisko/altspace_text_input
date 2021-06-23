@@ -1197,18 +1197,8 @@
         "affectsGlobalScope": false
       },
       "./src/app.ts": {
-        "version": "3af00290bc8e0c99f0b842de9fc1cf91272d0fb542ecd425a61509961d96a7a2",
+        "version": "6dab455368e0c758af32f852868335995dc94010d605c330c570296c959cf747",
         "signature": "dd536d0d7fd572ee904b994036ad5a9f90c7de0a1194343e621613dfadbdbd7c",
-        "affectsGlobalScope": false
-      },
-      "./src/groupMask.ts": {
-        "version": "b429ad0360f006b4f122089792aca601de76d02015cab60845e9b78a08fa6000",
-        "signature": "9df099c3d00f895f292a41736197167980c17949cb8b6ede4b8e48e4bf61b04e",
-        "affectsGlobalScope": false
-      },
-      "./src/interactiveBoard.ts": {
-        "version": "b907be1456f7a2046b9e440c1d09bce6619f74cec5b7acf0b196542af5d227b5",
-        "signature": "dd493793aef6a081f0c1fafe92a01296799806ee788497d4f621e83ad40e6f93",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/dotenv/index.d.ts": {
@@ -1219,11 +1209,6 @@
       "./src/server.ts": {
         "version": "34a69891466601a465e4f6914b414e2e9106cee8e4534f8f5eb8ee03fa44299f",
         "signature": "1bdaab87b793f49e745a6a1700bd74197b0a088d4e90ddc6f5bcb1a227fe826b",
-        "affectsGlobalScope": false
-      },
-      "./src/wearHat.ts": {
-        "version": "076b74704cc5d6f89a6a09d2ed4752c78da70738577c173e3b27a8df56602114",
-        "signature": "6f4190b55522b43018b049852e48e882618ef47ae7c709f5cef8469cc4d87552",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/eslint-visitor-keys/index.d.ts": {
@@ -1254,8 +1239,6 @@
       "strictNullChecks": false,
       "moduleResolution": 2,
       "esModuleInterop": true,
-      "watch": true,
-      "preserveWatchOutput": true,
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
@@ -2028,21 +2011,10 @@
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@types/pg/index.d.ts"
       ],
-      "./src/groupMask.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
-        "./src/app.ts"
-      ],
-      "./src/interactiveBoard.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
-      ],
       "./src/server.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./node_modules/@types/dotenv/index.d.ts",
         "./node_modules/@types/node/path.d.ts",
-        "./src/app.ts"
-      ],
-      "./src/wearHat.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
         "./src/app.ts"
       ]
     },
@@ -2814,17 +2786,6 @@
       ],
       "./src/app.ts": [
         "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
-      ],
-      "./src/groupMask.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
-        "./src/app.ts"
-      ],
-      "./src/interactiveBoard.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts"
-      ],
-      "./src/wearHat.ts": [
-        "./node_modules/@microsoft/mixed-reality-extension-sdk/built/index.d.ts",
-        "./src/app.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -3071,10 +3032,7 @@
       "./node_modules/typescript/lib/lib.es5.d.ts",
       "./node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "./src/app.ts",
-      "./src/groupMask.ts",
-      "./src/interactiveBoard.ts",
-      "./src/server.ts",
-      "./src/wearHat.ts"
+      "./src/server.ts"
     ]
   },
   "version": "3.9.9"
