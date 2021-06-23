@@ -63,7 +63,6 @@ export default class LearningWorld {
 							const numOfLines = textOnBoard.split("\n").length;
 
 							this.updateText(textOnBoard, numOfLines);
-							this.saveToDatabase();
 						}
 					});
 			});
@@ -106,6 +105,7 @@ export default class LearningWorld {
 					}
 				}
 			});
+			this.saveToDatabase();
 		})
 
 	}
