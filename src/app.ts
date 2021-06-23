@@ -105,7 +105,7 @@ export default class LearningWorld {
 					}
 				}
 			});
-			this.saveToDatabase();
+			this.textBoardtext.created().then(()=>this.saveToDatabase());
 		})
 
 	}
