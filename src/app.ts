@@ -11,8 +11,8 @@ const textHeight = 0.11;
 const charPerM = 18;
 const boardWidth = 3;
 
-const iGroup = ['i','l','t',' ','r','I','f','j','J'];
-const mGroup = ['m','w'];//capital letters
+const iGroup = ['i','l','t',' ','r','I','f','j','J',','];
+const mGroup = ['m','w'];// plus capital letters
 export default class LearningWorld {
 	private assets: MRE.AssetContainer;
 	private textBoardtext: MRE.Actor;
@@ -78,7 +78,7 @@ export default class LearningWorld {
 				transform: {
 					local: {
 						scale: {
-							y: numOfLines * (textHeight) * 1.2 + 0.08
+							y: numOfLines * (textHeight) * 1.18 + 0.1
 						}
 					}
 				}
@@ -162,7 +162,7 @@ export default class LearningWorld {
 					//nothing
 				}
 			} else { j = stringToReturn.length + isBreakLine }*/
-			j = this.whereEndLine(text,stringToReturn.length,maxWidth*1.2,3/22,2/80,2/37); //20,70,33
+			j = this.whereEndLine(text,stringToReturn.length,maxWidth*1.17,3/30,3/106,3/46); //20,70,33
 
 			stringToReturn += text.substring(stringToReturn.length, j) + "\n";
 		}
