@@ -1197,7 +1197,7 @@
         "affectsGlobalScope": false
       },
       "./src/app.ts": {
-        "version": "2e16038933705332ecab80aa7d644fabc502e42dbb2811fc7f9e01bff66e0b53",
+        "version": "295c3e19c75f893166a720d40bc4fc3335e9e6268b0386343448f8f72ffe3030",
         "signature": "c908e77842e3263b933d3a7ea89e8bf7254c8e144eb2b7d1d6a559ae7b1c0cf3",
         "affectsGlobalScope": false
       },
@@ -1239,6 +1239,8 @@
       "strictNullChecks": false,
       "moduleResolution": 2,
       "esModuleInterop": true,
+      "watch": true,
+      "preserveWatchOutput": true,
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {

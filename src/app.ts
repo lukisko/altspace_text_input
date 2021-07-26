@@ -9,7 +9,7 @@ export type userTrack = {
 
 const textHeight = 0.11;
 const charPerM = 18;
-const boardWidth = 3;
+const boardWidth = 3.05;
 
 const iGroup = ['i','l','t',' ','r','I','f','j','J',','];
 const mGroup = ['m','w'];// plus capital letters
@@ -162,7 +162,7 @@ export default class LearningWorld {
 					//nothing
 				}
 			} else { j = stringToReturn.length + isBreakLine }*/
-			j = this.whereEndLine(text,stringToReturn.length,maxWidth*1.17,3/30,3/106,3/46); //20,70,33
+			j = this.whereEndLine(text,stringToReturn.length,maxWidth*1.16,3/30,3/106,3/46); //20,70,33
 
 			stringToReturn += text.substring(stringToReturn.length, j) + "\n";
 		}
